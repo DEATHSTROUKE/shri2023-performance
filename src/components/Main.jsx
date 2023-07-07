@@ -60,16 +60,12 @@ const Main = () => {
             <ul className="hero-dashboard__info">
               <li className="hero-dashboard__item">
                 <div className="hero-dashboard__item-title">Дома</div>
-                <div className="hero-dashboard__item-details">
-                  +23
-                  <span className="a11y-hidden">°</span>
-                </div>
+                <div className="hero-dashboard__item-details">+23</div>
               </li>
               <li className="hero-dashboard__item">
                 <div className="hero-dashboard__item-title">За окном</div>
                 <div className="hero-dashboard__item-details">
                   +19
-                  <span className="a11y-hidden">°</span>
                   <div
                     className="hero-dashboard__icon hero-dashboard__icon_rain"
                     role="img"
